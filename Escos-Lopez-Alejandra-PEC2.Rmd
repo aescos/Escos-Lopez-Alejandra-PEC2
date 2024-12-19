@@ -1,0 +1,19 @@
+---
+title: "Escos-Lopez-Alejandra-PEC2"
+author: "Alejandra Escos"
+date: "2024-12-19"
+output: html_document
+---
+To erase data and start clean:
+
+```{r, message=FALSE, warning=FALSE}
+rm(list = ls())
+```
+
+To push changes in Git after working on the PEC1.
+
+```{bash eval=FALSE, include=FALSE}
+git push -u origin main
+# They will ask about the user name in github (aescos)
+# and password (use PAT token for this month)
+```
