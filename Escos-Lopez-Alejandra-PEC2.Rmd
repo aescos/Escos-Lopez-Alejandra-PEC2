@@ -14,14 +14,14 @@ To push changes in Git after working on the PEC1.
 
 ```{bash eval=FALSE, include=FALSE}
 git remote add origin https://github.com/aescos/Escos-Lopez-Alejandra-PEC2.git
+git remote add origin 
 
 git add .
 git commit -m "Initial commit"
 git branch -M main
 
-
 git push -u origin main
-
 # They will ask about the user name in github (aescos)
 # and password (use PAT token for this month: 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)
+# and password (use PAT token for this month)
 ```
